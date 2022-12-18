@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# cd /root
-# rm -rf docker
-# git clone https://github.com/mycloudazure/docker.git
-# docker system prune -af 
+cd /root
+rm -rf docker
+git clone https://github.com/mycloudazure/docker.git
+docker system prune -af 
 cd /root/docker 
 sh script.sh
 docker build -t myawspk/besant22:myapache .
